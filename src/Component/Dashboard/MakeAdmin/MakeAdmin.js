@@ -8,7 +8,7 @@ const MakeAdmin = () => {
     const handleMakeAdmin = (e) => {
         e.preventDefault();
         const user = { email };
-        fetch('http://localhost:5000/users/admin', {
+        fetch('https://protected-crag-59826.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

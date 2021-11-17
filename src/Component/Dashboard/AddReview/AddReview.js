@@ -9,7 +9,7 @@ const AddReview = () => {
         const comment = commentRef.current.value;
 
         const newPackage = { name, comment };
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://protected-crag-59826.herokuapp.com/reviews', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

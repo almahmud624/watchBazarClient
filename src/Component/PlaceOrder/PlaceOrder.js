@@ -11,12 +11,13 @@ const PlaceOrder = () => {
     const [products] = useProducts();
     const [singleProduct, setProduct] = useState({});
     useEffect(() => {
-        const foundProduct = products?.find(product => product.id === Number(orderId));
+        const foundProduct = products?.find(product => product?._id === orderId);
+        console.log(foundProduct);
         setProduct(foundProduct)
     }, [products]);
     const onSubmit = data => {
         data = { data, singleProduct };
-        fetch("http://localhost:5000/orders", {
+        fetch("https://protected-crag-59826.herokuapp.com/orders", {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -17,7 +17,7 @@ const AddProducts = () => {
             name, shortDescription
             , cost, img
         };
-        fetch('http://localhost:5000/products', {
+        fetch('https://protected-crag-59826.herokuapp.com/products', {
             method: 'post',
             headers: {
                 'content-type': 'application/json'

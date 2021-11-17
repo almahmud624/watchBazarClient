@@ -23,7 +23,7 @@ const AllProducts = () => {
                                         <p className="mt-2 truncate text-gray-600 text-sm">{product?.shortDescription}</p>
                                         <div className="flex item-center justify-between mt-3">
                                             <h1 className="text-gray-700 font-bold text-xl">${product?.cost}</h1>
-                                            <button className="px-3 py-2 bg-blue-200 text-gray-900 text-xs font-bold uppercase rounded"><Link to={`/orderProduct/${product?.id}`} className="text-gray-900">Purchase Now</Link></button>
+                                            <button className="px-3 py-2 bg-blue-200 text-gray-900 text-xs font-bold uppercase rounded"><Link to={`/orderProduct/${product?._id}`} className="text-gray-900">Purchase Now</Link></button>
                                         </div>
                                     </div>
                                 </div>
