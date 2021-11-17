@@ -1,6 +1,6 @@
 # Watch Bazar is best place to find best watch
 
-Watch as unique as the person who wears it, You can visit [Round Tour](https://watch-bazar-2ea69.web.app/) to find your favourite and best watch.
+Watch as unique as the person who wears it, You can visit [Watch Bazar](https://watch-bazar-2ea69.web.app/) to find your favourite and best watch.
 
 ## Features:
 
