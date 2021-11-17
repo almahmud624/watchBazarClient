@@ -1,0 +1,10 @@
+.MuiPaper-root {
+    top:auto !important;
+    z-index: inherit !important;
+    box-shadow: none !important;
+    border-bottom:1px solid #ccc;
+    background: #1f2937 !important;
+}
+.MuiSvgIcon-root {
+    color:#3b82f6;
+}
